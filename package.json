@@ -1,0 +1,13 @@
+{
+  "name": "my-midterm-project",
+  "version": "1.0.0",
+  "description": "Chat App for Midterm Project",
+  "scripts": {
+    "start:all": "npm run start:server & npm run start:client", 
+    "start:server": "node chat-server/server.js",
+    "start:client": "npm run dev --prefix chat-app",
+    "install:all": "npm run install:server && npm run install:client",
+    "install:server": "npm install --prefix chat-server",
+    "install:client": "npm install --prefix chat-app"   
+  }
+}

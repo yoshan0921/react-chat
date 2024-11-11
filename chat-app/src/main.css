@@ -1,0 +1,110 @@
+/* ===== RESET CSS ===== */
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-size: 16px;
+}
+
+a {
+text-decoration: none;
+}
+
+ul {
+list-style-type: none;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ===== CUSTOM CSS ===== */
+
+#root {
+  height: 100vh;
+}
+
+h1 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+button {
+  color: #ffffff;
+  background-color: #3f51b5;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #303f9f;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  padding: 10px;
+}
+
+.chatContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.messagesContainer {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  flex-grow: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.nameContainer {
+  margin-bottom: 10px; 
+}
+
+.inputContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.user {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.time {
+  font-size: 0.8rem;
+  color: #333333;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.yourNameLabel {
+  margin-right: 10px;
+}
+
+.yourNameInput {
+  width: 200px;
+} 
+
+.newMessage {
+  flex-grow: 1;
+}
